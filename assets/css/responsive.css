@@ -1,0 +1,183 @@
+@media only screen and (max-width: 1250px){
+    
+}
+@media only screen and (max-width: 768px){
+
+}
+@media only screen and (max-width: 600px){
+
+}
+@media only screen and (max-width: 320px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .main-header{
+        display: none;
+    }
+    .main-banner{
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+    .banner{
+        width: 100%;
+        display: block;
+        margin: 0px;
+    }
+    .banner .left,
+    .banner .right{
+        width: 100%;
+    }
+
+    .banner .left h1{
+        font-size: 25px;
+        font-weight: 700;
+        color: #e2e21d;
+    }
+    .banner .left p{
+        font-size: 12px;
+        font-weight: 500;
+        color: #000000;
+    }
+    .banner .right .images{
+        width: 100%;
+        height: 300px;
+        border-radius: 100%;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+        background-color: #fff;
+    }
+    .banner .right .images .carousel-item{
+        width: 100%;
+        height: 300px;
+        border-radius: 100%;
+    }
+    .banner .right .images .carousel-item img{
+        border-radius: 100%;
+        width: 100%;
+        height: 100%;
+    }
+
+    /* detail */
+    .box-detail{
+        width: 100%;
+        padding: 20px 0px;
+        display: block;
+    }
+    .box-detail .left-box,
+    .box-detail .right-box{
+        width: 100%;
+        height: 330px;
+    }
+    .box-detail .left-box .images{
+        width: 100%;
+        height: 330px;
+        overflow: hidden;
+    }
+    .box-detail .right-box h6{
+        font-size: 25px;
+        padding: 10px;
+        color: #000000;
+    }
+    .box-detail .right-box p{
+        font-size: 13px;
+        padding: 0px 10px;
+        color: #000000;
+    }
+
+    /* service */
+    .main-service{
+        width: 100%;
+    }
+    .title,
+    .title-our-team{
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        padding: 20px 0px;
+        color: #001eff9f;
+    }
+    .service:after{
+    display: block;
+    }
+    .service .box{
+        display: inline-block;
+        margin: 10px 0;
+        width: 100%;
+        padding: 10px;
+        height: 280px;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+        background-color: #fff;
+        border-radius: 10px;
+    }
+
+    /* our team */
+    .main-our-team{
+        padding: 20px 0px;
+        background-color: #eeeeee;
+    }
+    .our-team .box{
+        display: block;
+        width: 95%;
+        margin: 10px auto;
+        padding: 10px;
+        height: 330px;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+        background-color: #fff;
+        border-radius: 10px;
+    }
+    .our-team .box .images{
+        width: 100%;
+        height: 240px;
+        margin: auto;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    /* footer */
+    .footer{
+        display: block;
+    }
+    .footer .logo{
+        font-size: 30px;
+        width: 100%;
+        padding: 10px 0px;
+        color: #000000;
+        text-align: center;
+    }
+    .footer .about-us{
+        width: 100%;
+        padding: 10px 0px;
+    }
+    .footer .about-us h6,
+    .footer .social-media h6{
+        font-size: 20px;
+        font-weight: bold;
+        color: #000000;
+        text-align: center;
+        padding: 10px 0px;
+        text-align: center;
+    }
+    .footer .about-us p{
+        color: #000000;
+        font-size: 17px;
+        padding: 10px;
+        font-weight: 500;
+        text-align: center;
+    }
+    .footer .social-media{
+        width: 100%;
+        text-align: center;
+        padding: 10px 0px;
+    }
+    .footer .social-media i{
+        color: rgba(255, 255, 255, 0.856);
+        font-size: 18px;
+        padding: 10px;
+        background-color: #000000;
+        text-align: center;
+        border-radius: 100%;
+    }
+}
